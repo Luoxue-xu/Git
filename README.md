@@ -265,13 +265,13 @@ git branch --set-upstream develop origin/develop
 ```
 
 #####参考
-[http://justcoding.iteye.com/blog/1830388](http://justcoding.iteye.com/blog/1830388)\br
-[远程仓库的使用](http://progit.org/book/zh/ch2-5.html)\br
-[何谓分支](http://progit.org/book/zh/ch3-1.html)\br
-[基本的分支与合并](http://progit.org/book/zh/ch3-2.html)\br
-[分支的管理](http://progit.org/book/zh/ch3-3.html)\br
-[分支式工作流程](http://progit.org/book/zh/ch3-4.html)\br
-[远程分支](http://progit.org/book/zh/ch3-5.html)\br
+[http://justcoding.iteye.com/blog/1830388](http://justcoding.iteye.com/blog/1830388)<\br>
+[远程仓库的使用](http://progit.org/book/zh/ch2-5.html)<\br>
+[何谓分支](http://progit.org/book/zh/ch3-1.html)<\br>
+[基本的分支与合并](http://progit.org/book/zh/ch3-2.html)<\br>
+[分支的管理](http://progit.org/book/zh/ch3-3.html)<\br>
+[分支式工作流程](http://progit.org/book/zh/ch3-4.html)<\br>
+[远程分支](http://progit.org/book/zh/ch3-5.html)<\br>
 [衍合](http://progit.org/book/zh/ch3-6.html)
 
 
