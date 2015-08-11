@@ -262,9 +262,9 @@ git remote set-head origin master   //# 设置远程仓库的HEAD指向master分
 ```javascript
 git branch --set-upstream master origin/master  
 git branch --set-upstream develop origin/develop
+```
 
-
-####参考
+#####参考
 [http://justcoding.iteye.com/blog/1830388](http://justcoding.iteye.com/blog/1830388)
 [远程仓库的使用](http://progit.org/book/zh/ch2-5.html)
 [何谓分支](http://progit.org/book/zh/ch3-1.html)
