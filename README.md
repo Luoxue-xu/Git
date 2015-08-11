@@ -1,5 +1,5 @@
 ##命令解析
-###初始化配置
+####初始化配置
 ```javascript
 //# 配置使用git仓库的人员姓名
 git config --global user.name "Your Name Comes Here"
@@ -22,7 +22,7 @@ git config -1
 ~/.gitconfig
 ```
 
-###查看、添加、提交、删除、找回，重置修改文件
+####查看、添加、提交、删除、找回，重置修改文件
 ```javascript
 git help <command>  //# 显示command的help  
 git show            //# 显示某次提交的内容  
@@ -52,7 +52,7 @@ git revert HEAD     //# 恢复最后一次提交的状态
 ```
 
 
-###查看文件diff
+####查看文件diff
 ```javascript
 git diff <file>     //# 比较当前文件和暂存区文件差异  
 git diff  
@@ -64,7 +64,7 @@ git diff --stat     //# 仅仅比较统计信息
 ```
 
 
-###查看提交记录
+####查看提交记录
 ```javascript
 git log  
 git log <file>      //# 查看该文件每次提交记录
@@ -74,7 +74,7 @@ git log --stat      //#查看提交统计信息
 ```
 
 
-###取得Git仓库
+####取得Git仓库
 ```javascript
 //#初始化一个版本仓库  
 git init  
@@ -90,7 +90,7 @@ git remote -v
 ```
 
 
-###提交你的修改
+####提交你的修改
 ```javascript
 //#添加当前修改的文件到暂存区  
 git add .  
@@ -140,7 +140,7 @@ git checkout –- readme.txt
 ```
 
 
-###查看、切换、创建和删除分支
+####查看、切换、创建和删除分支
 ```javascript
 git br -r           //# 查看远程分支  
 git br <new_branch> //# 创建新的分支  
@@ -160,7 +160,7 @@ git br -D <branch>  //# 强制删除某个分支 (未被合并的分支被删除
 ```
 
 
-###分支合并和rebase
+####分支合并和rebase
 ```javascript
 git merge <branch>               //# 将branch分支合并到当前分支  
 git merge origin/master --no-ff  //# 不要Fast-Foward合并，这样可以生成merge提交  
@@ -170,7 +170,7 @@ git co <branch> && git rebase master && git co master && git merge <branch>
 ```
 
 
-###Git补丁管理(方便在多台机器上开发同步时用)
+####Git补丁管理(方便在多台机器上开发同步时用)
 ```javascript
 git diff > ../sync.patch         //# 生成补丁
 git apply ../sync.patch          //# 打补丁
@@ -178,7 +178,7 @@ git apply --check ../sync.patch  //#测试补丁能否成功
 ```
 
 
-###Git暂存管理
+####Git暂存管理
 ```javascript
 git stash                        //# 暂存  
 git stash list                   //# 列所有stash  
@@ -187,7 +187,7 @@ git stash drop                   //# 删除暂存区
 ```
 
 
-###Git远程分支管理
+####Git远程分支管理
 ```javascript
 git pull                         //# 抓取远程仓库所有分支更新并合并到本地  
 git pull --no-ff                 //# 抓取远程仓库所有分支更新并合并到本地，不要快进合并  
@@ -205,7 +205,7 @@ git push origin :<remote_branch>  //#先删除本地分支(git br -d <branch>)�
 ```
 
 
-###基本的分支管理
+####基本的分支管理
 ```javascript
 //#创建一个分支  
 git branch iss53  
@@ -236,7 +236,7 @@ git checkout –b dev origin/develop
 ```
 
 
-###Git远程仓库管理
+####Git远程仓库管理
 ```javascript
 git remote -v                    //# 查看远程服务器地址和仓库名称  
 git remote show origin           //# 查看远程服务器仓库状态  
@@ -246,7 +246,7 @@ git remote rm <repository>      //# 删除远程仓库
 ```
 
 
-###创建远程仓库
+####创建远程仓库
 ```javascript
 git clone --bare robbin_site robbin_site.git  //# 用带版本的项目创建纯版本仓库  
 scp -r my_project.git git@ git.csdn.net:~      //# 将纯仓库上传到服务器上  
@@ -258,20 +258,20 @@ git remote set-head origin master   //# 设置远程仓库的HEAD指向master分
 ```
 
 
-###命令设置跟踪远程库和本地库
+####命令设置跟踪远程库和本地库
 ```javascript
 git branch --set-upstream master origin/master  
 git branch --set-upstream develop origin/develop
 ```
 
 #####参考
-[http://justcoding.iteye.com/blog/1830388](http://justcoding.iteye.com/blog/1830388)
-[远程仓库的使用](http://progit.org/book/zh/ch2-5.html)
-[何谓分支](http://progit.org/book/zh/ch3-1.html)
-[基本的分支与合并](http://progit.org/book/zh/ch3-2.html)
-[分支的管理](http://progit.org/book/zh/ch3-3.html)
-[分支式工作流程](http://progit.org/book/zh/ch3-4.html)
-[远程分支](http://progit.org/book/zh/ch3-5.html)
+[http://justcoding.iteye.com/blog/1830388](http://justcoding.iteye.com/blog/1830388)\<br>
+[远程仓库的使用](http://progit.org/book/zh/ch2-5.html)\<br>
+[何谓分支](http://progit.org/book/zh/ch3-1.html)\<br>
+[基本的分支与合并](http://progit.org/book/zh/ch3-2.html)\<br>
+[分支的管理](http://progit.org/book/zh/ch3-3.html)\<br>
+[分支式工作流程](http://progit.org/book/zh/ch3-4.html)\<br>
+[远程分支](http://progit.org/book/zh/ch3-5.html)\<br>
 [衍合](http://progit.org/book/zh/ch3-6.html)
 
 
