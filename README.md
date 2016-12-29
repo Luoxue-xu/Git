@@ -273,8 +273,8 @@ git branch --set-upstream develop origin/develop
 [分支式工作流程](http://progit.org/book/zh/ch3-4.html)</br>
 [远程分支](http://progit.org/book/zh/ch3-5.html)</br>
 [衍合](http://progit.org/book/zh/ch3-6.html)
-
-
+[中文在线图书Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/index.html)
+[中文在线图书Pro Git](https://git-scm.com/book/zh/v2)
 
 
 
